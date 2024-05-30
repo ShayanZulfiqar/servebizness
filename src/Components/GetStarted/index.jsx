@@ -6,7 +6,7 @@ export const GetStarted = () => {
     <>
       <div className="container-get-started overflow-hidden border-spacing-1 p-5">
         <div className="row d-flex align-items-md-center justify-content-center text-center">
-          <div className="col-lg-6" data-aos="fade-up">
+          <div className="col-lg-6" data-aos="zoom-out">
             <h2>Get Started with Us</h2>
             <h2>Today</h2>
             <p>Experience top-quality academic writing services tailored to</p>
@@ -20,7 +20,7 @@ export const GetStarted = () => {
               </button>
             </a>
           </div>
-          <div className="col-lg-6 object-cover" data-aos="fade-up">
+          <div className="col-lg-6 object-cover" data-aos="zoom-out">
             <img
               src="/images/notebook-3820634_1280.jpg"
               alt=""

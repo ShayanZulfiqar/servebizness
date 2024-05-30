@@ -4,7 +4,7 @@ export const ServicesBanner = ({subtitle,title,desc,col_1_title,col_1_des,col_2_
   return (
     <div className="container-services p-5">
       <div className="row">
-        <div className="col-lg-6" data-aos="fade-up">
+        <div className="col-lg-6" data-aos="zoom-out">
           <p>{subtitle}</p>
           <h1>{title}</h1>
           <p>
@@ -23,7 +23,7 @@ export const ServicesBanner = ({subtitle,title,desc,col_1_title,col_1_des,col_2_
                 {col_2_desc}
               </p>
             </div>
-            <div className={className}>
+            <div className={className} >
               <h5>{col_3_title}</h5>
               <p>
                 {col_3_desc}
@@ -31,7 +31,7 @@ export const ServicesBanner = ({subtitle,title,desc,col_1_title,col_1_des,col_2_
             </div>
           </div>
         </div>
-        <div className="col-lg-6" data-aos="fade-up">
+        <div className="col-lg-6" data-aos="zoom-out">
           <img
             src={imgUrl}
            alt="Setvice Banner"

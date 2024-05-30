@@ -22,6 +22,7 @@ import { ContentServices2 } from "./Pages/Content_Writing_All/ContentServices2";
 import { AcademicServices1 } from "./Pages/Academic_Writing_All/AcademicServices1";
 import { Sample } from "./Pages/Sample";
 import { LandingPage } from "./Pages/LandingPage";
+import { ParallaxProvider } from 'react-scroll-parallax';
 
 
 const ProjectRoutes = () => {

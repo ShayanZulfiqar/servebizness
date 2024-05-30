@@ -28,12 +28,13 @@ export const ServicesCollapsed = () => {
     return (
         <>
   {/*collapses services starts */}
-  <div className="container-services mt-5 text-center">
+  <div className="container-services mt-5 text-center" data-aos="zoom-out">
     <h2>Our Services</h2>
     <button
       className="px-2 px-md-4 py-2 rounded-5"
       data-bs-toggle="collapse"
       data-bs-target="#demo"
+      data-aos="zoom-out"
     >
       Business Writing
     </button>
@@ -41,6 +42,7 @@ export const ServicesCollapsed = () => {
       className="px-2 px-md-4 py-2 rounded-5"
       data-bs-toggle="collapse"
       data-bs-target="#demo1"
+      data-aos="zoom-out"
     >
       Academic Writing
     </button>
@@ -48,6 +50,7 @@ export const ServicesCollapsed = () => {
       className="px-2 px-md-4 py-2 rounded-5"
       data-bs-toggle="collapse"
       data-bs-target="#demo2"
+      data-aos="zoom-out"
     >
       Content Writing
     </button>

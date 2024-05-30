@@ -14,7 +14,7 @@ export const FAQ = () => {
     return (
       <div className="container-faqs">
         <div className="container">
-          <h2 className="text-center">FAQs</h2>
+          <h2 className="text-center" data-aos="zoom-out">FAQs</h2>
           <p className="text-center mb-5">
             Find answers to common questions about our services, ordering process,
             and guarantees.
@@ -23,6 +23,7 @@ export const FAQ = () => {
             <div className="accordion-item p-1">
               <button
                 id={`accordion-button-1`}
+                data-aos="zoom-out"
                 aria-expanded={activeIndex === 0 ? "true" : "false"}
                 onClick={() => toggleAccordion(0)}
               >
@@ -46,6 +47,7 @@ export const FAQ = () => {
             <div className="accordion-item p-1">
               <button
                 id={`accordion-button-2`}
+                data-aos="zoom-out"
                 aria-expanded={activeIndex === 1 ? "true" : "false"}
                 onClick={() => toggleAccordion(1)}
               >
@@ -66,6 +68,7 @@ export const FAQ = () => {
             <div className="accordion-item p-1">
               <button
                 id={`accordion-button-3`}
+                data-aos="zoom-out"
                 aria-expanded={activeIndex === 2 ? "true" : "false"}
                 onClick={() => toggleAccordion(2)}
               >
@@ -86,6 +89,7 @@ export const FAQ = () => {
             <div className="accordion-item p-1">
               <button
                 id={`accordion-button-4`}
+                data-aos="zoom-out"
                 aria-expanded={activeIndex === 3 ? "true" : "false"}
                 onClick={() => toggleAccordion(3)}
               >
@@ -106,6 +110,7 @@ export const FAQ = () => {
             <div className="accordion-item p-1">
               <button
                 id={`accordion-button-5`}
+                data-aos="zoom-out"
                 aria-expanded={activeIndex === 4 ? "true" : "false"}
                 onClick={() => toggleAccordion(4)}
               >

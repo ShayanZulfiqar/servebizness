@@ -6,12 +6,12 @@ export const DeliveringExcellence = () => {
         {/* delivery section */}
         <div className="container-delivery container-services overflow-hidden">
           <div className="row p-5">
-            <div className="col-lg-6" data-aos="fade-up">
+            <div className="col-lg-6" data-aos="zoom-out">
               <p>Reliable</p>
               <h1>Delivering Excellence with</h1>
               <h1>Timely Delivery</h1>
             </div>
-            <div className="col-lg-6" data-aos="fade-up">
+            <div className="col-lg-6" data-aos="zoom-out">
               <p>
                 At our company, we understand the importance of timely delivery.
                 We strive to provide our clients with high-quality customer
@@ -28,7 +28,7 @@ export const DeliveringExcellence = () => {
                 <a href="/signup">Sign Up &gt;</a>
               </div>
             </div>
-            <div className="image-section" style={{ height: 450 }} data-aos="fade-up">
+            <div className="image-section" style={{ height: 450 }} data-aos="zoom-out">
               <img
                 src="/images/delivery.jpg"
                 alt=""

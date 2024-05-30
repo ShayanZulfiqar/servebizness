@@ -6,7 +6,7 @@ export const StreamProcess = () => {
       <>
         {/* streamlind process */}
         <div className="container-process text-center overflow-hidden container-services mb-5">
-          <div className="text-heading p-4">
+          <div className="text-heading p-4" data-aos="zoom-out">
             <h1>Streamlined process for writing</h1>
             <h1>projects Delivery</h1>
             <p className="">
@@ -20,7 +20,7 @@ export const StreamProcess = () => {
             <p>efficient experience.</p>
           </div>
           <div className="row">
-            <div className="col-lg-6 p-3 text-start" data-aos="zoom-in-up">
+            <div className="col-lg-6 p-3 text-start" data-aos="zoom-out">
               <div className="row d-flex justify-content-center">
                 <div className="col-lg-1 fs-3 text-dark">
                   <i className="fa-solid fa-cube" />
@@ -45,8 +45,8 @@ export const StreamProcess = () => {
                   </p>
                 </div>
               </div>
-              <div className="row d-flex justify-content-center">
-                <div className="col-lg-1 fs-3 text-dark">
+              <div className="row d-flex justify-content-center" data-aos="zoom-out">
+                <div className="col-lg-1 fs-3 text-dark" >
                   <i className="fa-solid fa-cube" />
                 </div>
                 <div className="col-lg-9 mt-0 ms-2">
@@ -58,7 +58,7 @@ export const StreamProcess = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6" data-aos="zoom-in-right">
+            <div className="col-lg-6" data-aos="zoom-out">
               <img
                 src="/images/business banner.jpg"
                 alt="business banner"
